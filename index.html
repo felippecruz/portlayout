@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/images/5568706_5568706.svg" alt="cadastro">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Nome" required name="firstname">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Sobrenome" required name="lastname">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Email" required name="email">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxxx-xxxx" required name="number">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input type="password" name="password" id="password" placeholder="Senha" required name="password">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="confirmpassword">Confirme sua senha</label>
+                        <input type="confirmpassword" name="confirmpassword" id="confirmpassword"
+                            placeholder="Confirme sua senha" required name="confirmpassword">
+                    </div>
+                    
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-tittles">
+                        <h6>Gênero</h6>
+                    </div>
+                    <div class="gender-group">
+                        <label for="male">Masculino</label>
+                        <input type="radio" name="gender" id="male">
+                    </div>
+
+                    <div class="gender-group">
+                        <label for="female">Feminino</label>
+                        <input type="radio" name="gender" id="female">
+                    </div>
+
+                    <!---div class="gender-group">
+                        <label for="others">Outros</label>
+                        <input type="radio" name="gender" id="others">
+                    </div---->
+
+                    
+                </div>
+
+                <div class="continue-button">
+                    <button>
+                        <a href="login_2.html">Proximo</a>
+                    </button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
